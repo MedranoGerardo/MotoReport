@@ -3,9 +3,28 @@
 @section('title', 'Login')
 
 @section('content')
+
+<head>
+    <!-- CSS de Bootstrap primero -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Luego tus estilos personalizados -->
+    <style>
+        .btn-custom {
+            background-color: #203E4F;
+            color: white;
+            border: none;
+        }
+
+        .btn-custom:hover {
+            background-color: #182F3E;
+            color: white;
+        }
+    </style>
+</head>
+
 <div class="login-container">
     <div class="login-card">
-        <!--<img src="/asset/img/Villamotoswhite.jpeg" alt="Villamotos" class="login-logo">-->
+        <img src="/asset/img/MotoReport.png" alt="MotoReport" class="login-logo">
         <h3>{{ __('Acceder') }}</h3>
         <div class="card-body">
             <form method="POST" action="{{ route('login') }}">

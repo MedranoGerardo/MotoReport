@@ -226,13 +226,13 @@ function formatearFecha($fecha) {
     <table style="border: 0;">
       <tr style="border: 0;">
         <td style="border: 0;">
-         <!-- <img
-            src="data:image/png;base64,{{ base64_encode(file_get_contents(public_path('/asset/img/villamotoswhite.jpeg'))) }}"
+       <!-- <img
+            src="data:image/png;base64,{{ base64_encode(file_get_contents(public_path('/asset/img/MotoReport.png'))) }}"
             style="display: block;margin: 0 auto;width: 219px;height: 62px;"> -->
         </td>
         <td style="text-align: right; border: 0;">
-         <!-- <h5 style="font-weight: 700;font-size: 14px; margin-bottom: 0;">MOTOCICLETAS REPUESTOS Y ACCESORIOS</h5>
-          <p style="color:rgb(9, 9, 134);font-weight: 700;font-size: 14px;">Av. José Simeón Cañas<br>N°905-E Barrio
+        <h5 style="font-weight: 700;font-size: 14px; margin-bottom: 0;">MOTOCICLETAS REPUESTOS Y ACCESORIOS</h5>
+        <!--  <p style="color:rgb(9, 9, 134);font-weight: 700;font-size: 14px;">Av. José Simeón Cañas<br>N°905-E Barrio
             Concepción<br>San
             Miguel
             Tel:2697-0802
@@ -240,15 +240,15 @@ function formatearFecha($fecha) {
         </td>
       </tr>
     </table>
-    <!--<h1>A QUIEN INTERESE:</h1> -->
-   <!-- <p>
+    <h1>A QUIEN INTERESE:</h1>
+    <p>
       Por medio de la presente hacemos constar a todas las autoridades que en esta empresa distribuidora de motocicletas
       el Sr. <span class="highlight">{{ $cliente->nombre }}</span> (A). TEL: <span
         class="highlight">{{$cliente->telefono}}</span>.
       Con documento de identidad personal Nº <span class="highlight">{{$cliente->dui}}</span>. Y NIT N° <span
         class="highlight">{{$cliente->nit}}</span>.
       Ha adquirido una motocicleta con las siguientes características.
-    </p> -->
+    </p>
 
     <table>
       <tr>
@@ -306,28 +306,27 @@ function formatearFecha($fecha) {
     <br>
     <br>
     <br><br>
-    <!--<p class="signature"
+    <p class="signature"
       style="text-align: center;border-top: 1px solid #000; width: 40%;display: block;margin: 0 auto;padding-top: 0.75rem;">
-      SAMUEL VILLATORO<br>
       JEFE DE TIENDA
-    </p> -->
+    </p>
   </div>
   <div class="doc2">
     <table style="border: 1px solid #000;background-color: #fff;">
       <tr style="border: 0;">
         <th style="border: 0;text-align: center;background-color: #fff;">
-         <!-- <img
-            src="data:image/png;base64,{{ base64_encode(file_get_contents(public_path('/asset/img/villamotoswhite.jpeg'))) }}"
-            style="display: block;margin: 0 auto;width: 100%;height: 50px;"> -->
-        </th>
+<!--         <img
+            src="data:image/png;base64,{{ base64_encode(file_get_contents(public_path('/asset/img/MotoReport.png'))) }}"
+            style="display: block;margin: 0 auto;width: 100%;height: 50px;">
+ -->    </th>
         <th style="border: 0;text-align: center;background-color: #fff;">
           <h2>INFORME DE NEGOCIOS</h2>
         </th>
         <th style="border: 0;background-color: #fff;line-height: 0.5;">
           <!--<p style="margin-bottom: 0;padding-bottom: 0;">Av. José Simeón Cañas N°905-E</p>
           <p style="margin-bottom: 0;padding-bottom: 0;">Barrio Concepción San Miguel</p>
-          <p style="margin-bottom: 1.5rem;padding-bottom: 0;">Tel. 2697-0802</p>
-          <p>Fecha: {{ date("d/m/Y", strtotime($venta->fecha_compra)) }}</p> -->
+          <p style="margin-bottom: 1.5rem;padding-bottom: 0;">Tel. 2697-0802</p> -->
+          <p>Fecha: {{ date("d/m/Y", strtotime($venta->fecha_compra)) }}</p>
         </th>
       </tr>
       <tr>
@@ -422,8 +421,8 @@ function formatearFecha($fecha) {
     <div class="container">
       <!--<h2>Av. José Simeón Cañas #905-E San Miguel Tel. 2697-0802</h2> -->
       <h3 class="pricipal">POLIZA</h3>
-      <!--<img
-        src="data:image/png;base64,{{ base64_encode(file_get_contents(public_path('/asset/img/villamotoswhite.jpeg'))) }}"
+     <!--  <img
+        src="data:image/png;base64,{{ base64_encode(file_get_contents(public_path('/asset/img/MotoReport.png'))) }}"
         class="logo"> -->
       <h3>{{ $d->poliza }}</h3>
       <div class="scissors">✂</div>
