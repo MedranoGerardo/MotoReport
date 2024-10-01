@@ -226,17 +226,14 @@ function formatearFecha($fecha) {
     <table style="border: 0;">
       <tr style="border: 0;">
         <td style="border: 0;">
-       <!-- <img
+          <img
             src="data:image/png;base64,{{ base64_encode(file_get_contents(public_path('/asset/img/MotoReport.png'))) }}"
-            style="display: block;margin: 0 auto;width: 219px;height: 62px;"> -->
+            style="display: block;margin: 0 auto;width: 140px;height: 120px;">
         </td>
         <td style="text-align: right; border: 0;">
-        <h5 style="font-weight: 700;font-size: 14px; margin-bottom: 0;">MOTOCICLETAS REPUESTOS Y ACCESORIOS</h5>
-        <!--  <p style="color:rgb(9, 9, 134);font-weight: 700;font-size: 14px;">Av. José Simeón Cañas<br>N°905-E Barrio
-            Concepción<br>San
-            Miguel
-            Tel:2697-0802
-          </p>-->
+          <h5 style="font-weight: 700;font-size: 14px; margin-bottom: 0;">MOTO REPORT</h5>
+          <p style="color:rgb(9, 9, 134);font-weight: 700;font-size: 14px;">
+          </p>
         </td>
       </tr>
     </table>
@@ -310,22 +307,23 @@ function formatearFecha($fecha) {
       style="text-align: center;border-top: 1px solid #000; width: 40%;display: block;margin: 0 auto;padding-top: 0.75rem;">
       JEFE DE TIENDA
     </p>
+    <br>
+    <br>
+    <br>
+    <br>
   </div>
   <div class="doc2">
     <table style="border: 1px solid #000;background-color: #fff;">
       <tr style="border: 0;">
         <th style="border: 0;text-align: center;background-color: #fff;">
-<!--         <img
+          <img
             src="data:image/png;base64,{{ base64_encode(file_get_contents(public_path('/asset/img/MotoReport.png'))) }}"
-            style="display: block;margin: 0 auto;width: 100%;height: 50px;">
- -->    </th>
+            style="display: block;margin: 0 auto;width: 100px;height: 80px;">
+        </th>
         <th style="border: 0;text-align: center;background-color: #fff;">
           <h2>INFORME DE NEGOCIOS</h2>
         </th>
         <th style="border: 0;background-color: #fff;line-height: 0.5;">
-          <!--<p style="margin-bottom: 0;padding-bottom: 0;">Av. José Simeón Cañas N°905-E</p>
-          <p style="margin-bottom: 0;padding-bottom: 0;">Barrio Concepción San Miguel</p>
-          <p style="margin-bottom: 1.5rem;padding-bottom: 0;">Tel. 2697-0802</p> -->
           <p>Fecha: {{ date("d/m/Y", strtotime($venta->fecha_compra)) }}</p>
         </th>
       </tr>
@@ -419,11 +417,9 @@ function formatearFecha($fecha) {
   <br>
   <div class="doc3">
     <div class="container">
-      <!--<h2>Av. José Simeón Cañas #905-E San Miguel Tel. 2697-0802</h2> -->
       <h3 class="pricipal">POLIZA</h3>
-     <!--  <img
-        src="data:image/png;base64,{{ base64_encode(file_get_contents(public_path('/asset/img/MotoReport.png'))) }}"
-        class="logo"> -->
+      <img src="data:image/png;base64,{{ base64_encode(file_get_contents(public_path('/asset/img/MotoReport.png'))) }}"
+        class="logo" style="margin-top: 2rem;">
       <h3>{{ $d->poliza }}</h3>
       <div class="scissors">✂</div>
     </div>

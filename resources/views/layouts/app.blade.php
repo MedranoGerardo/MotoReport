@@ -12,7 +12,7 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
     <link href="{{ asset('asset/css/login.css') }}" rel="stylesheet">
     <link href="{{ asset('asset/css/nav.css') }}" rel="stylesheet">
-   <!-- <link rel="shortcut icon" href="{{ asset('asset/img/remove.png') }}" type="image/png"> -->
+    <link rel="shortcut icon" href="{{ asset('asset/img/MotoReport.png') }}" type="image/png">
     <!-- Styles -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -75,8 +75,8 @@
         <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                   <!-- <img src="{{ asset('asset/img/remove.png') }}" alt="{{ config('app.name', 'laravel') }}"
-                        height="50"> -->
+                    <img src="{{ asset('asset/img/MotoReport.png') }}" alt="{{ config('app.name', 'laravel') }}"
+                        height="50">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

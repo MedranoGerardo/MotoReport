@@ -57,17 +57,14 @@
   <table style="border: 0;width: 100%;">
     <tr style="border: 0;">
       <td style="border: 0;">
-     <!-- <img
+        <img
           src="data:image/png;base64,{{ base64_encode(file_get_contents(public_path('/asset/img/MotoReport.png'))) }}"
-          style="display: block;margin: 0 auto;width: 219px;height: 62px;"> -->
+          style="display: block;margin: 0 auto;width: 140px;height: 120px;">
       </td>
       <td style="text-align: right; border: 0;">
-      <h5 style="font-weight: 700;font-size: 14px; margin-bottom: 0;">MOTOCICLETAS REPUESTOS Y ACCESORIOS</h5>
-      <!--<p style="color:rgb(9, 9, 134);font-weight: 700;font-size: 14px;">Av. José Simeón Cañas<br>N°905-E Barrio
-          Concepción<br>San
-          Miguel
-          Tel:2697-0802
-        </p> -->
+        <h5 style="font-weight: 700;font-size: 14px; margin-bottom: 0;">MOTO REPORT</h5>
+        <p style="color:rgb(9, 9, 134);font-weight: 700;font-size: 14px;">
+        </p>
       </td>
     </tr>
   </table>
